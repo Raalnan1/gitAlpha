@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="WebPartPageExpansion" content="full" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" x-undefined="" />
+    <title>Angularizer</title>
+    <script type="text/javascript" src="/sites/TeamSite/SiteAssets/_js/jquery.js"></script>
+    <script type="text/javascript" src="/sites/TeamSite/SiteAssets/_js/Virgil.js"></script>
+    <script type="text/javascript" src="/sites/TeamSite/SiteAssets/_js/Skructure.js"></script>
+    <script type="text/javascript">
+        $(document).ready(Skructure.DocumentReady);
+    </script>
+    <style type="text/css">
+        div.Computed {
+            color: blue;
+        }
+
+        div.User {
+            color: coral;
+        }
+
+        div.Lookup {
+            color: chocolate;
+        }
+
+        div.Counter {
+            color: blueviolet;
+        }
+
+        div.Text {
+            color: burlywood;
+        }
+
+        div.Boolean {
+            color: crimson;
+        }
+
+        div.DateTime {
+            color: cornflowerblue;
+        }
+
+        div.ContentTypeId {
+            color: cadetblue;
+        }
+
+        div.ModStat {
+            color: red;
+        }
+
+        div.Note {
+            color: mediumorchid;
+        }
+
+        div.File {
+            color: darkslateblue;
+        }
+
+        div.Integer {
+            color: indigo;
+        }
+
+        div.Number {
+            color: navajowhite;
+        }
+
+        div.Guid {
+            color: dimgrey;
+        }
+
+        div.Choice {
+            color: crimson;
+        }
+
+        div.MultiChoice {
+            color: limegreen;
+        }
+
+        div.Calculated {
+            color: firebrick;
+        }
+
+        div.Attachments {
+            color: darkgoldenrod;
+        }
+
+        div.URL {
+            color: turquoise;
+        }
+
+        div.AccessRequestsPermissionLevel {
+            color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Angularizer</h1>
+    <h2>Models</h2>
+    <div id="dvModels"></div>
+</body>
+
+</html>
